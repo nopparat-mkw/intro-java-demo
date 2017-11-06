@@ -53,7 +53,7 @@ spring:
   jpa:
     hibernate:
       dialect: org.hibernate.dialect.MySQLInnoDBDialect
-      ddl-auto: create-drop
+      ddl-auto: create
       show-sql: false
 
   management.service:
